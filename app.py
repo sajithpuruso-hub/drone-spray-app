@@ -15,7 +15,7 @@ st.markdown("""
     .stSlider { margin-bottom: 20px; }
     .stMetric { background-color: #f0f2f6; padding: 10px; border-radius: 10px; }
     </style>
-    """, unsafe_content_as_html=True)
+    """, unsafe_allow_html=True)
 
 st.title("🚁 Spray Swath Pro")
 st.subheader("Field Coverage Estimator")
